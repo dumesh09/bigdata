@@ -1,16 +1,12 @@
 ﻿**Geography\_industry:**
 
-\#   Column            Non-Null Count   Dtype         
+#   Column            Non-Null Count   Dtype         
+---  ------            --------------   -----         
+ 0   post_date         394393 non-null  datetime 
+ 1   state             387832 non-null  object        
+ 2   industry          369742 non-null  object       
+ 3   count_id_indexed  394392 non-null  float64 
 
-\---  ------            --------------   -----         
-
-` `0   post\_date         394393 non-null  datetime 
-
-` `1   state             387832 non-null  object        
-
-` `2   industry          369742 non-null  object       
-
-` `3   count\_id\_indexed  394392 non-null  float64 
 
 - There are a total number of 394393 observations and the following variables have more than 94% of data. So, these variables cannot be removed.
 - The variable Post\_date has 394393 records, and it does not have any missing values. So, we cannot remove the post\_date variable.
@@ -39,29 +35,19 @@
 
 If we observe in industry variable Communication, Construction, Energy, Entertainment, Financial Services, Healthcare, Hospitality has equal amount of share contribution. Insurance, Manufacturing, Mining, Real Estate, Retail, Services, Transportation, Wholesale these sectors have equal number of shares in market and slightly less than above-mentioned sectors.
 
-**States:**
-
+States:
 AK    6560
-
 KS    6560
-
 AL    6560
-
 NH    6560
-
 NE    6560
-
-`      `... 
-
+      ... 
 Ko      16
-
 MB      16
-
 ZH      16
-
 BS      16
-
 LU      16
+
 
 From above states we can observe that AK,KS,AL,NH,NE states have an equal number of industries that is 6560 while Ko,MB,ZH,BS,LU states have less number of industries that is 16.
 
@@ -71,17 +57,16 @@ RangeIndex: 619919 entries, 0 to 619918
 
 Data columns (total 4 columns):
 
-` `#   Column            Non-Null Count   Dtype         
+Job_family_role:
+RangeIndex: 619919 entries, 0 to 619918
+Data columns (total 4 columns):
+ #   Column            Non-Null Count   Dtype         
+---  ------            --------------   -----         
+ 0   post_date         619919 non-null  datetime64[ns]
+ 1   job_family        619347 non-null  object        
+ 2   role              619904 non-null  object        
+ 3   count_id_indexed  619919 non-null  object
 
-\---  ------            --------------   -----         
-
-` `0   post\_date         619919 non-null  datetime64[ns]
-
-` `1   job\_family        619347 non-null  object        
-
-` `2   role              619904 non-null  object        
-
-` `3   count\_id\_indexed  619919 non-null  object
 
 - There are a total number of 619919 observations and the following variables have more than 94% of data. So, these variables cannot be removed.
 - The variable Post\_date has 619919 records, and it does not have any missing values. So, we cannot remove the post\_date variable.
