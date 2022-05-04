@@ -1,7 +1,7 @@
 # Evaluation
 
 We tried regression model based on geography,industry,job_family and overall to analyse the impact of covid-19 on the job market.
-Evaluation shows improvent in the job market. We considered month vise variation in the data in different catogories. 
+Evaluation shows improvement in the job market. We considered month vise variation in the data in different catogories. 
 
 - our linear regression model gives us an accuracy of 71.2%
 
