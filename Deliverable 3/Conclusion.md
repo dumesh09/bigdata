@@ -1,0 +1,1 @@
+The job market appears to be improving, according to the data, since the number of job posts has nearly quadrupled since March 2020 (pre-covid). This could be because most people have been vaccinated and are using safeguards like masks and social separation. As a result, if you're looking for a new job or are just starting out, now is an excellent moment to do it.
