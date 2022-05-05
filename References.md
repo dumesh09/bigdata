@@ -1,0 +1,3 @@
+- Covid Job Impacts - US Hiring Data Since March 1 2020 was accessed on 04/12/2022 from https://registry.opendata.aws/us-hiring-rates-pandemic.
+- https://covidjobimpacts.greenwich.hr/
+- https://www.bls.gov/covid19/effects-of-covid-19-pandemic-and-response-on-the-employment-situation-news-release.htm
